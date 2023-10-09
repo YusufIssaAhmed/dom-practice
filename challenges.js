@@ -55,9 +55,14 @@
   
 
 
-function multiply (num1,num2) {
-    let result = num1*num2;
-    return result;
+// function multiply (num1,num2) {
+//     let result = num1*num2;
+//     return result;
 
 
-    let sum = multiply (5,6)
+//     let sum = multiply (5,6)
+
+let salary = 500;
+let tax = .2;
+let takehomesalary = salary - (salary * tax);
+console.log("your take home salary is " + takehomesalary)
